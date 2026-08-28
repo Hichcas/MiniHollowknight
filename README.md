@@ -14,9 +14,9 @@
 [![Architecture](https://img.shields.io/badge/Architecture-MVC-9B59B6?style=for-the-badge)](#)
 [![License](https://img.shields.io/badge/License-Educational-blue?style=for-the-badge)](#)
 
-[![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO?style=for-the-badge&color=yellow)](../../stargazers)
-[![Forks](https://img.shields.io/github/forks/YOUR_USERNAME/YOUR_REPO?style=for-the-badge&color=blue)](../../network/members)
-[![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO?style=for-the-badge&color=orange)](../../commits)
+[![Stars](https://img.shields.io/github/stars/Hichcas/MiniHollowknight?style=for-the-badge&color=yellow)](../../stargazers)
+[![Forks](https://img.shields.io/github/forks/Hichcas/MiniHollowknight?style=for-the-badge&color=blue)](../../network/members)
+[![Last Commit](https://img.shields.io/github/last-commit/Hichcas/MiniHollowknight?style=for-the-badge&color=orange)](../../commits)
 
 <br>
 
