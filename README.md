@@ -281,6 +281,6 @@ Original game design, characters, and art direction © **Team Cherry**. This is 
 
 ### If this project made you smile, consider dropping a ⭐
 
-**Made with 🖤 and a lot of `Vector2` math.**
+**Made with ❤️ and a lot of `Vector2` math.**
 
 </div>
