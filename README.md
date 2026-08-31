@@ -283,7 +283,7 @@ Original game design, characters, and art direction © **Team Cherry**. This is 
 
 ### *"💯Hollow, but not empty. Broken, but not beaten.💯"*
 
-Built with ❤️ for **Advanced Programming** — Sharif University of Technology
+###Built with ❤️ for **Advanced Programming** — Sharif University of Technology
 **Created by Ali Ariakia**
 
 </div>
