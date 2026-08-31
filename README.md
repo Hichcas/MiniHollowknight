@@ -20,7 +20,7 @@
 
 <br>
 
-**[▶ Watch the Demo](./video.mp4)** · **[⬇ Download Latest Release](../../releases/latest)** · **[🐞 Report a Bug](../../issues)**
+**[▶ Watch the Demo](./video.mp4)** · **[⬇ Download Latest Release](https://my.sharif.edu/s/LqPP2spEyp962Fo)** · **[🐞 Report a Bug](../../issues)**
 
 <br>
 
