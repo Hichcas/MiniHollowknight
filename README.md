@@ -281,6 +281,9 @@ Original game design, characters, and art direction © **Team Cherry**. This is 
 
 ### If this project made you smile, consider dropping a ⭐
 
-**Made with ❤️ and a lot of `Vector2` math.**
+### *"💯Hollow, but not empty. Broken, but not beaten.💯"*
+
+Built with ❤️ for **Advanced Programming** — Sharif University of Technology
+**Created by Ali Ariakia**
 
 </div>
