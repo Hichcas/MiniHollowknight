@@ -20,7 +20,13 @@
 
 <br>
 
-**[▶ Watch the Demo](https://my.sharif.edu/s/eNYgGPep4Cyzm8C)** · **[⬇ Download Latest Release](https://my.sharif.edu/s/LqPP2spEyp962Fo)** · **[🐞 Report a Bug](../../issues)**
+## 🎬 [**▶️ WATCH THE GAMEPLAY DEMO**](https://my.sharif.edu/s/eNYgGPep4Cyzm8C)
+
+![Watch Demo](https://img.shields.io/badge/▶_WATCH_GAMEPLAY_DEMO-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
+
+<br>
+
+**[⬇ Download Latest Release](https://my.sharif.edu/s/LqPP2spEyp962Fo)** · **[🐞 Report a Bug](../../issues)**
 
 <br>
 
@@ -137,15 +143,14 @@ Built solo for the Advanced Programming course at **Sharif University of Technol
 
 </div>
 
-```
-IF   player_distance < CLOSE_RANGE        →  ↑ weight: Mace Slam
-ELIF player_distance > FAR_RANGE          →  ↑ weight: Charge Run / Offensive Leap
-                                           →  + random jitter (unpredictability)
-                                           →  − repeat penalty (anti-spam)
+IF player_distance < CLOSE_RANGE → ↑ weight: Mace Slam
+ELIF player_distance > FAR_RANGE → ↑ weight: Charge Run / Offensive Leap
+→ + random jitter (unpredictability)
+→ − repeat penalty (anti-spam)
 
-ON   HP <= 50%   →  STUN → armor breaks → vulnerable core exposed
-AFTER stun       →  Phase 2: faster movement, faster AI tick, new Slam Shockwave attack
-```
+ON HP <= 50% → STUN → armor breaks → vulnerable core exposed
+AFTER stun → Phase 2: faster movement, faster AI tick, new Slam Shockwave attack
+
 
 | System | What makes it real |
 |---|---|
@@ -175,23 +180,21 @@ AFTER stun       →  Phase 2: faster movement, faster AI tick, new Slam Shockwa
 
 Strict **Model-View-Controller** separation — no god classes, no rendering logic in game state.
 
-```
 📦 project
-├── Model/          → Pure game state — Knight, FalseKnight, enemies, charms, save data
-│   └── Enums/       → State machines (KnightState, FalseKnightState, ZoteState, …)
-├── View/            → Rendering, sprite animations, screens, VFX & shaders
-│   └── Screen/       → MainMenu, HUD, Pause, Achievements, Guide, EndGame
-├── Controller/      → Input, AI decision logic, physics, save/audio/achievement managers
-└── io/…/lwjgl3/      → Desktop launcher entry point
-```
+├── Model/ → Pure game state — Knight, FalseKnight, enemies, charms, save data
+│ └── Enums/ → State machines (KnightState, FalseKnightState, ZoteState, …)
+├── View/ → Rendering, sprite animations, screens, VFX & shaders
+│ └── Screen/ → MainMenu, HUD, Pause, Achievements, Guide, EndGame
+├── Controller/ → Input, AI decision logic, physics, save/audio/achievement managers
+└── io/…/lwjgl3/ → Desktop launcher entry point
+
 
 Every actor in the game — enemy or boss — follows the same recipe:
 
-```
-State enum  →  drives  →  dedicated Controller  →  mutates  →  Model
-                                                        ↓
-                                              matching View/Animations renders it
-```
+State enum → drives → dedicated Controller → mutates → Model
+↓
+matching View/Animations renders it
+
 
 This keeps AI, physics, and presentation completely decoupled — you can reskin any enemy without touching a single line of combat logic.
 
